@@ -1,3 +1,5 @@
+//ฟังก์ชัน void DisplayData(struct Books CBook) คือ ฟังก์ชันที่ทำหน้าที่รับข้อมูลประเภทStruct เข้ามาเพื่อแสดงผลทางหน้าจอ
+//พารามิเตอร์ที่รับเข้ามา struct Books CBook
 #include <stdio.h> 
 #include <stdlib.h> 
 struct Books{ 
@@ -19,4 +21,5 @@ void DisplayData(struct Books CBook){
     printf("Book ID : %d \n",CBook.BookID); 
     printf("Book Title : %s \n",CBook.BookTitle); 
 }
+
 
